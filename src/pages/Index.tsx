@@ -55,7 +55,7 @@ export default function Index() {
                 </div>
                 <p className="text-xl text-muted-foreground mb-2">в санатории «Белая Русь»</p>
                 <p className="text-lg text-foreground/90">
-                  Телеведущий, шоумен, человек-праздник — его харизма и энергия зададут темп всей ночи!
+                  Телеведущий, шоумен, человек-праздник — его харизма и энергия зададут темп всей ночи и превратят праздник в незабываемое шоу.
                 </p>
               </CardContent>
             </Card>
@@ -97,12 +97,12 @@ export default function Index() {
             <Card className="bg-card/60 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all duration-300 hover:scale-105">
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
-                  <Icon name="Music" className="text-primary flex-shrink-0 mt-1" size={32} />
+                  <Icon name="Users" className="text-primary flex-shrink-0 mt-1" size={32} />
                   <div>
-                    <h3 className="font-heading text-xl font-bold text-foreground mb-2">Предпраздничная встреча</h3>
+                    <h3 className="font-heading text-xl font-bold text-foreground mb-2">Предпраздничная встреча гостей</h3>
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
-                        <Icon name="Sparkles" className="text-accent flex-shrink-0 mt-1" size={16} />
+                        <Icon name="Camera" className="text-accent flex-shrink-0 mt-1" size={16} />
                         <span>Элегантная фотозона для ярких кадров</span>
                       </li>
                       <li className="flex items-start gap-2">
@@ -111,7 +111,7 @@ export default function Index() {
                       </li>
                       <li className="flex items-start gap-2">
                         <Icon name="Music2" className="text-accent flex-shrink-0 mt-1" size={16} />
-                        <span>Скрипач-виртуоз Валерий Белокуров</span>
+                        <span>Скрипач-виртуоз Валерий Белокуров — музыка, рождающая настроение праздника</span>
                       </li>
                     </ul>
                   </div>
@@ -124,11 +124,11 @@ export default function Index() {
                 <div className="flex items-start gap-4">
                   <Icon name="PartyPopper" className="text-secondary flex-shrink-0 mt-1" size={32} />
                   <div>
-                    <h3 className="font-heading text-xl font-bold text-foreground mb-2">Шоу-программа</h3>
+                    <h3 className="font-heading text-xl font-bold text-foreground mb-2">Первые впечатления</h3>
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
                         <Icon name="Flame" className="text-accent flex-shrink-0 mt-1" size={16} />
-                        <span>Шоу-балет «Фиеста» — вихрь энергии</span>
+                        <span>Шоу-балет «Фиеста» — вихрь ярких костюмов и энергии</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <Icon name="Drum" className="text-accent flex-shrink-0 mt-1" size={16} />
@@ -136,7 +136,7 @@ export default function Index() {
                       </li>
                       <li className="flex items-start gap-2">
                         <Icon name="Mic2" className="text-accent flex-shrink-0 mt-1" size={16} />
-                        <span>Песни, тосты, поздравления и море веселья</span>
+                        <span>Песни, тосты, поздравления и море веселья!</span>
                       </li>
                     </ul>
                   </div>
@@ -149,33 +149,34 @@ export default function Index() {
             <CardContent className="p-8">
               <div className="flex items-center gap-3 mb-6">
                 <Icon name="Utensils" className="text-primary" size={36} />
-                <h3 className="font-heading text-3xl font-bold text-foreground">Новогодний банкет</h3>
+                <h3 className="font-heading text-3xl font-bold text-foreground">Новогодний банкет в ресторане</h3>
               </div>
+              <p className="text-lg text-muted-foreground mb-6">Когда часы приближаются к полуночи, праздник засияет ещё ярче!</p>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-heading text-xl font-semibold text-foreground mb-3 flex items-center gap-2">
-                    <Icon name="Clock" className="text-accent" size={20} />
-                    До полуночи
+                    <Icon name="Music" className="text-accent" size={20} />
+                    Вас ждёт:
                   </h4>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <Icon name="Guitar" className="text-accent flex-shrink-0 mt-1" size={16} />
-                      <span>Кавер-группа «Михаил Светлов»</span>
+                      <span>Кавер-группа «Михаил Светлов» — любимые хиты и зажигательные ритмы</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <Icon name="Sparkles" className="text-accent flex-shrink-0 mt-1" size={16} />
-                      <span>Новые номера шоу-балета «Фиеста»</span>
+                      <span>Шоу-балет «Фиеста» — новые грандиозные номера</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <Icon name="Trophy" className="text-accent flex-shrink-0 mt-1" size={16} />
-                      <span>Bar Show Up — бармен-шоу и конкурсы</span>
+                      <Icon name="Wine" className="text-accent flex-shrink-0 mt-1" size={16} />
+                      <span>Bar Show Up — бармен-шоу, крутые трюки, весёлые конкурсы</span>
                     </li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-heading text-xl font-semibold text-foreground mb-3 flex items-center gap-2">
-                    <Icon name="Timer" className="text-accent" size={20} />
-                    В полночь
+                    <Icon name="Clock" className="text-accent" size={20} />
+                    Кульминация:
                   </h4>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start gap-2">
@@ -184,25 +185,30 @@ export default function Index() {
                     </li>
                     <li className="flex items-start gap-2">
                       <Icon name="Tv" className="text-accent flex-shrink-0 mt-1" size={16} />
-                      <span>Обращение Президента РФ</span>
+                      <span>Новогоднее обращение Президента РФ</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <Icon name="Rocket" className="text-accent flex-shrink-0 mt-1" size={16} />
+                      <Icon name="Flame" className="text-accent flex-shrink-0 mt-1" size={16} />
                       <span>Финальный огненный салют</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <Icon name="Disc3" className="text-accent flex-shrink-0 mt-1" size={16} />
+                      <Icon name="Music4" className="text-accent flex-shrink-0 mt-1" size={16} />
                       <span>Дискотека до утра!</span>
                     </li>
                   </ul>
                 </div>
+              </div>
+              <div className="mt-6 p-4 bg-accent/10 rounded-lg border border-accent/30">
+                <p className="text-center font-heading text-lg font-semibold text-foreground">
+                  И всё это под невероятную харизму Валерия Пономаренко!
+                </p>
               </div>
             </CardContent>
           </Card>
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-card/30">
+      <section className="py-20 px-4 bg-gradient-to-b from-card/50 to-background">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-3 mb-4">
@@ -210,6 +216,7 @@ export default function Index() {
               <h2 className="font-heading text-5xl font-bold text-foreground">1 января</h2>
             </div>
             <p className="text-2xl text-accent font-heading font-semibold">Праздник продолжается</p>
+            <p className="text-lg text-muted-foreground mt-3">Начните год весело и с улыбкой!</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
@@ -221,10 +228,8 @@ export default function Index() {
                       <Icon name="Coffee" className="text-primary" size={40} />
                     </div>
                   </div>
-                  <h3 className="font-heading text-xl font-bold text-foreground mb-3">Утро</h3>
-                  <p className="text-muted-foreground">
-                    Утренняя «РеАнимация» — для тех, кто готов праздновать по-взрослому
-                  </p>
+                  <h3 className="font-heading text-xl font-bold text-foreground mb-2">Утренняя «РеАнимация»</h3>
+                  <p className="text-muted-foreground">Для тех, кто готов праздновать по-взрослому</p>
                 </div>
               </CardContent>
             </Card>
@@ -237,20 +242,11 @@ export default function Index() {
                       <Icon name="Gamepad2" className="text-accent" size={40} />
                     </div>
                   </div>
-                  <h3 className="font-heading text-xl font-bold text-foreground mb-3">День</h3>
-                  <ul className="text-muted-foreground space-y-2 text-left">
-                    <li className="flex items-center gap-2">
-                      <Icon name="Paintbrush" className="text-accent flex-shrink-0" size={16} />
-                      <span>Мастер-классы и квизы</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <Icon name="Gift" className="text-accent flex-shrink-0" size={16} />
-                      <span>Розыгрыши призов</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <Icon name="Users" className="text-accent flex-shrink-0" size={16} />
-                      <span>Танцевальные активности</span>
-                    </li>
+                  <h3 className="font-heading text-xl font-bold text-foreground mb-3">Дневная программа</h3>
+                  <ul className="space-y-2 text-muted-foreground text-sm">
+                    <li>Мастер-классы и квизы</li>
+                    <li>Розыгрыши призов</li>
+                    <li>Танцевальные активности и игры</li>
                   </ul>
                 </div>
               </CardContent>
@@ -264,13 +260,24 @@ export default function Index() {
                       <Icon name="Music4" className="text-secondary" size={40} />
                     </div>
                   </div>
-                  <h3 className="font-heading text-xl font-bold text-foreground mb-3">Вечер</h3>
-                  <p className="text-muted-foreground">
-                    Танцевальный драйв с кавер-группой «Михаил Светлов»
-                  </p>
+                  <h3 className="font-heading text-xl font-bold text-foreground mb-2">Вечером</h3>
+                  <p className="text-muted-foreground">Танцевальный драйв с кавер-группой «Михаил Светлов»</p>
                 </div>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 px-4 bg-gradient-to-br from-primary/5 via-accent/5 to-secondary/5">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-12">
+            <h2 className="font-heading text-5xl font-bold text-foreground mb-4">
+              Проведите Новый год в «Белой Руси»
+            </h2>
+            <p className="text-xl text-muted-foreground">
+              Где праздник живёт в каждом мгновении, а воспоминания остаются с вами навсегда!
+            </p>
           </div>
         </div>
       </section>
@@ -293,91 +300,78 @@ export default function Index() {
             <CardContent className="p-8">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <Label htmlFor="name" className="text-foreground font-heading text-lg">
-                    Ваше имя *
-                  </Label>
-                  <Input
+                  <Label htmlFor="name" className="text-foreground font-heading">Ваше имя</Label>
+                  <Input 
                     id="name"
                     name="name"
-                    required
                     value={formData.name}
                     onChange={handleChange}
-                    className="mt-2 bg-background/50 border-primary/30 text-foreground"
-                    placeholder="Введите ваше имя"
+                    className="mt-2 bg-background/50 border-primary/20 focus:border-primary"
+                    placeholder="Иван Иванов"
+                    required
                   />
                 </div>
-
+                
                 <div>
-                  <Label htmlFor="phone" className="text-foreground font-heading text-lg">
-                    Телефон *
-                  </Label>
-                  <Input
+                  <Label htmlFor="phone" className="text-foreground font-heading">Телефон</Label>
+                  <Input 
                     id="phone"
                     name="phone"
                     type="tel"
-                    required
                     value={formData.phone}
                     onChange={handleChange}
-                    className="mt-2 bg-background/50 border-primary/30 text-foreground"
-                    placeholder="+7 (___) ___-__-__"
+                    className="mt-2 bg-background/50 border-primary/20 focus:border-primary"
+                    placeholder="+7 (999) 123-45-67"
+                    required
                   />
                 </div>
-
+                
                 <div>
-                  <Label htmlFor="email" className="text-foreground font-heading text-lg">
-                    Email
-                  </Label>
-                  <Input
+                  <Label htmlFor="email" className="text-foreground font-heading">Email</Label>
+                  <Input 
                     id="email"
                     name="email"
                     type="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="mt-2 bg-background/50 border-primary/30 text-foreground"
-                    placeholder="your@email.com"
+                    className="mt-2 bg-background/50 border-primary/20 focus:border-primary"
+                    placeholder="example@mail.com"
+                    required
                   />
                 </div>
-
+                
                 <div>
-                  <Label htmlFor="guests" className="text-foreground font-heading text-lg">
-                    Количество гостей
-                  </Label>
-                  <Input
+                  <Label htmlFor="guests" className="text-foreground font-heading">Количество гостей</Label>
+                  <Input 
                     id="guests"
                     name="guests"
                     type="number"
                     min="1"
-                    max="10"
                     value={formData.guests}
                     onChange={handleChange}
-                    className="mt-2 bg-background/50 border-primary/30 text-foreground"
+                    className="mt-2 bg-background/50 border-primary/20 focus:border-primary"
+                    required
                   />
                 </div>
 
-                <Button
+                <Button 
                   type="submit"
                   size="lg"
-                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-heading text-xl py-6 rounded-full shadow-xl shadow-primary/30 hover:shadow-primary/50 transition-all duration-300 hover:scale-105"
+                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-heading text-lg py-6 shadow-xl shadow-primary/30 hover:shadow-primary/50 transition-all duration-300"
                 >
-                  <Icon name="Check" className="mr-2" size={24} />
-                  Забронировать
+                  <Icon name="Send" className="mr-2" size={20} />
+                  Отправить заявку
                 </Button>
               </form>
-
-              <div className="mt-8 pt-8 border-t border-border">
-                <p className="text-center text-muted-foreground">
-                  Проведите Новый год в «Белой Руси» — где праздник живёт в каждом мгновении, а воспоминания остаются с вами навсегда!
-                </p>
-              </div>
             </CardContent>
           </Card>
         </div>
       </section>
 
-      <footer className="py-8 px-4 border-t border-border">
+      <footer className="py-8 px-4 border-t border-border/50">
         <div className="container mx-auto text-center">
           <p className="text-muted-foreground">
-            © 2025 Санаторий «Белая Русь». Встречаем 2026 — год Огненной Лошади
+            Санаторий «Белая Русь» • Новогодняя ночь 2026
           </p>
         </div>
       </footer>
